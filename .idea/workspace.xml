@@ -2,14 +2,761 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="908fc336-aad1-47f5-ae9f-d1850ad803d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/iim-project-symfony.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/iim-project-symfony.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/util.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/util.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/elegant-font/Licensing/gpl_license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/elegant-font/Licensing/gpl_license.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/elegant-font/Licensing/mit_license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/elegant-font/Licensing/mit_license.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/alert-circled.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/alert-circled.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/alert.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/alert.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-add-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-add-circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-add.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-add.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-alarm-clock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-alarm-clock.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-alert.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-alert.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-apps.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-apps.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-archive.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-archive.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-arrow-back.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-arrow-back.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-arrow-down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-arrow-down.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-arrow-dropdown-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-arrow-dropdown-circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-arrow-dropdown.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-arrow-dropdown.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-arrow-dropleft-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-arrow-dropleft-circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-arrow-dropleft.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-arrow-dropleft.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-arrow-dropright-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-arrow-dropright-circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-arrow-dropright.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-arrow-dropright.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-arrow-dropup-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-arrow-dropup-circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-arrow-dropup.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-arrow-dropup.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-arrow-forward.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-arrow-forward.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-arrow-up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-arrow-up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-attach.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-attach.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-bar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-bar.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-bicycle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-bicycle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-boat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-boat.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-bookmark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-bookmark.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-bulb.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-bulb.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-bus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-bus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-calendar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-calendar.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-call.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-call.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-camera.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-camera.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-cancel.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-cancel.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-car.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-car.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-cart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-cart.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-chat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-chat.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-checkbox-blank.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-checkbox-blank.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-checkbox-outline-blank.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-checkbox-outline-blank.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-checkbox-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-checkbox-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-checkbox.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-checkbox.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-checkmark-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-checkmark-circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-clipboard.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-clipboard.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-close.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-close.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-cloud-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-cloud-circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-cloud-done.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-cloud-done.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-cloud-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-cloud-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-cloud.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-cloud.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-color-palette.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-color-palette.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-compass.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-compass.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-contact.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-contact.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-contacts.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-contacts.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-contract.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-contract.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-create.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-create.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-delete.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-delete.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-desktop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-desktop.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-document.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-document.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-done-all.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-done-all.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-done.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-done.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-download.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-download.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-drafts.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-drafts.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-exit.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-exit.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-expand.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-expand.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-favorite-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-favorite-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-favorite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-favorite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-film.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-film.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-folder-open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-folder-open.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-folder.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-folder.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-funnel.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-funnel.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-globe.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-globe.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-hand.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-hand.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-hangout.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-hangout.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-happy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-happy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-home.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-home.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-image.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-image.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-laptop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-laptop.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-list.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-list.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-locate.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-locate.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-lock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-lock.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-mail.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-mail.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-map.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-map.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-menu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-menu.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-microphone-off.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-microphone-off.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-microphone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-microphone.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-more-horizontal.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-more-horizontal.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-more-vertical.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-more-vertical.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-navigate.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-navigate.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-notifications-none.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-notifications-none.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-notifications-off.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-notifications-off.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-notifications.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-notifications.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-open.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-options.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-options.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-people.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-person-add.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-person-add.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-person.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-person.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-phone-landscape.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-phone-landscape.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-phone-portrait.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-phone-portrait.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-pin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-pin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-plane.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-plane.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-playstore.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-playstore.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-print.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-print.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-radio-button-off.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-radio-button-off.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-radio-button-on.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-radio-button-on.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-refresh.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-refresh.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-remove-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-remove-circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-remove.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-remove.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-restaurant.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-restaurant.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-sad.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-sad.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-search.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-send.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-send.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-settings.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-settings.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-share-alt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-share-alt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-share.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-share.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-star-half.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-star-half.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-star-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-star-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-star.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-star.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-stopwatch.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-stopwatch.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-subway.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-subway.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-sunny.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-sunny.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-sync.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-sync.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-textsms.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-textsms.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-time.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-time.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-train.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-train.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-unlock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-unlock.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-upload.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-upload.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-volume-down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-volume-down.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-volume-mute.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-volume-mute.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-volume-off.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-volume-off.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-volume-up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-volume-up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-walk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-walk.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-warning.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-warning.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-watch.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-watch.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-wifi.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/android-wifi.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/aperture.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/aperture.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/archive.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/archive.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-down-a.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-down-a.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-down-b.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-down-b.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-down-c.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-down-c.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-expand.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-expand.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-graph-down-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-graph-down-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-graph-down-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-graph-down-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-graph-up-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-graph-up-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-graph-up-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-graph-up-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-left-a.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-left-a.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-left-b.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-left-b.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-left-c.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-left-c.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-move.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-move.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-resize.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-resize.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-return-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-return-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-return-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-return-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-right-a.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-right-a.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-right-b.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-right-b.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-right-c.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-right-c.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-shrink.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-shrink.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-swap.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-swap.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-up-a.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-up-a.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-up-b.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-up-b.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-up-c.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/arrow-up-c.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/asterisk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/asterisk.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/at.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/at.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/backspace-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/backspace-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/backspace.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/backspace.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/bag.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/bag.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/battery-charging.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/battery-charging.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/battery-empty.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/battery-empty.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/battery-full.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/battery-full.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/battery-half.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/battery-half.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/battery-low.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/battery-low.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/beaker.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/beaker.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/beer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/beer.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/bluetooth.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/bluetooth.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/bonfire.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/bonfire.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/bookmark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/bookmark.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/bowtie.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/bowtie.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/briefcase.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/briefcase.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/bug.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/bug.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/calculator.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/calculator.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/calendar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/calendar.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/camera.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/camera.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/card.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/card.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/cash.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/cash.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/chatbox-working.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/chatbox-working.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/chatbox.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/chatbox.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/chatboxes.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/chatboxes.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/chatbubble-working.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/chatbubble-working.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/chatbubble.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/chatbubble.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/chatbubbles.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/chatbubbles.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/checkmark-circled.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/checkmark-circled.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/checkmark-round.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/checkmark-round.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/checkmark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/checkmark.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/chevron-down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/chevron-down.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/chevron-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/chevron-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/chevron-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/chevron-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/chevron-up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/chevron-up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/clipboard.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/clipboard.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/clock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/clock.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/close-circled.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/close-circled.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/close-round.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/close-round.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/close.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/close.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/closed-captioning.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/closed-captioning.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/cloud.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/cloud.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/code-download.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/code-download.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/code-working.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/code-working.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/code.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/code.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/coffee.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/coffee.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/compass.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/compass.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/compose.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/compose.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/connection-bars.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/connection-bars.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/contrast.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/contrast.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/crop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/crop.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/cube.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/cube.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/disc.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/disc.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/document-text.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/document-text.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/document.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/document.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/drag.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/drag.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/earth.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/earth.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/easel.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/easel.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/edit.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/edit.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/egg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/egg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/eject.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/eject.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/email-unread.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/email-unread.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/email.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/email.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/erlenmeyer-flask-bubbles.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/erlenmeyer-flask-bubbles.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/erlenmeyer-flask.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/erlenmeyer-flask.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/eye-disabled.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/eye-disabled.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/eye.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/eye.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/female.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/female.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/filing.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/filing.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/film-marker.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/film-marker.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/fireball.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/fireball.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/flag.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/flag.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/flame.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/flame.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/flash-off.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/flash-off.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/flash.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/flash.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/folder.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/folder.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/fork-repo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/fork-repo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/fork.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/fork.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/forward.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/forward.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/funnel.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/funnel.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/gear-a.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/gear-a.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/gear-b.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/gear-b.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/grid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/grid.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/hammer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/hammer.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/happy-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/happy-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/happy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/happy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/headphone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/headphone.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/heart-broken.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/heart-broken.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/heart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/heart.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/help-buoy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/help-buoy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/help-circled.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/help-circled.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/help.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/help.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/home.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/home.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/icecream.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/icecream.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/image.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/image.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/images.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/images.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/information-circled.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/information-circled.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/information.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/information.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ionic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ionic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-alarm-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-alarm-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-alarm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-alarm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-albums-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-albums-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-albums.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-albums.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-americanfootball-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-americanfootball-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-americanfootball.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-americanfootball.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-analytics-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-analytics-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-analytics.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-analytics.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-arrow-back.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-arrow-back.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-arrow-down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-arrow-down.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-arrow-forward.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-arrow-forward.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-arrow-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-arrow-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-arrow-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-arrow-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-arrow-thin-down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-arrow-thin-down.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-arrow-thin-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-arrow-thin-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-arrow-thin-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-arrow-thin-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-arrow-thin-up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-arrow-thin-up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-arrow-up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-arrow-up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-at-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-at-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-at.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-at.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-barcode-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-barcode-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-barcode.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-barcode.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-baseball-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-baseball-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-baseball.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-baseball.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-basketball-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-basketball-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-basketball.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-basketball.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-bell-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-bell-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-bell.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-bell.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-body-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-body-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-body.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-body.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-bolt-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-bolt-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-bolt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-bolt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-book-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-book-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-book.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-book.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-bookmarks-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-bookmarks-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-bookmarks.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-bookmarks.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-box-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-box-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-box.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-box.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-briefcase-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-briefcase-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-briefcase.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-briefcase.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-browsers-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-browsers-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-browsers.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-browsers.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-calculator-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-calculator-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-calculator.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-calculator.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-calendar-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-calendar-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-calendar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-calendar.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-camera-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-camera-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-camera.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-camera.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-cart-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-cart-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-cart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-cart.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-chatboxes-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-chatboxes-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-chatboxes.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-chatboxes.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-chatbubble-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-chatbubble-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-chatbubble.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-chatbubble.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-checkmark-empty.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-checkmark-empty.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-checkmark-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-checkmark-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-checkmark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-checkmark.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-circle-filled.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-circle-filled.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-circle-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-circle-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-clock-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-clock-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-clock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-clock.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-close-empty.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-close-empty.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-close-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-close-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-close.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-close.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-cloud-download-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-cloud-download-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-cloud-download.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-cloud-download.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-cloud-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-cloud-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-cloud-upload-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-cloud-upload-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-cloud-upload.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-cloud-upload.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-cloud.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-cloud.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-cloudy-night-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-cloudy-night-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-cloudy-night.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-cloudy-night.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-cloudy-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-cloudy-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-cloudy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-cloudy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-cog-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-cog-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-cog.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-cog.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-color-filter-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-color-filter-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-color-filter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-color-filter.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-color-wand-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-color-wand-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-color-wand.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-color-wand.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-compose-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-compose-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-compose.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-compose.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-contact-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-contact-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-contact.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-contact.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-copy-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-copy-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-copy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-copy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-crop-strong.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-crop-strong.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-crop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-crop.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-download-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-download-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-download.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-download.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-drag.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-drag.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-email-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-email-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-email.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-email.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-eye-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-eye-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-eye.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-eye.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-fastforward-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-fastforward-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-fastforward.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-fastforward.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-filing-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-filing-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-filing.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-filing.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-film-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-film-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-film.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-film.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-flag-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-flag-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-flag.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-flag.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-flame-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-flame-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-flame.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-flame.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-flask-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-flask-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-flask.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-flask.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-flower-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-flower-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-flower.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-flower.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-folder-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-folder-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-folder.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-folder.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-football-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-football-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-football.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-football.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-game-controller-a-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-game-controller-a-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-game-controller-a.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-game-controller-a.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-game-controller-b-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-game-controller-b-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-game-controller-b.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-game-controller-b.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-gear-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-gear-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-gear.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-gear.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-glasses-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-glasses-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-glasses.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-glasses.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-grid-view-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-grid-view-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-grid-view.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-grid-view.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-heart-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-heart-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-heart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-heart.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-help-empty.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-help-empty.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-help-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-help-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-help.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-help.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-home-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-home-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-home.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-home.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-infinite-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-infinite-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-infinite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-infinite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-information-empty.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-information-empty.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-information-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-information-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-information.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-information.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-ionic-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-ionic-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-keypad-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-keypad-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-keypad.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-keypad.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-lightbulb-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-lightbulb-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-lightbulb.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-lightbulb.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-list-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-list-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-list.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-list.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-location-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-location-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-location.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-location.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-locked-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-locked-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-locked.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-locked.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-loop-strong.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-loop-strong.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-loop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-loop.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-medical-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-medical-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-medical.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-medical.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-medkit-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-medkit-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-medkit.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-medkit.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-mic-off.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-mic-off.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-mic-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-mic-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-mic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-mic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-minus-empty.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-minus-empty.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-minus-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-minus-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-minus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-minus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-monitor-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-monitor-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-monitor.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-monitor.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-moon-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-moon-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-moon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-moon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-more-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-more-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-more.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-more.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-musical-note.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-musical-note.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-musical-notes.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-musical-notes.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-navigate-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-navigate-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-navigate.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-navigate.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-nutrition-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-nutrition-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-nutrition.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-nutrition.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-paper-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-paper-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-paper.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-paper.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-paperplane-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-paperplane-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-paperplane.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-paperplane.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-partlysunny-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-partlysunny-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-partlysunny.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-partlysunny.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-pause-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-pause-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-pause.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-pause.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-paw-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-paw-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-paw.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-paw.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-people-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-people-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-people.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-person-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-person-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-person.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-person.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-personadd-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-personadd-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-personadd.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-personadd.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-photos-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-photos-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-photos.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-photos.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-pie-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-pie-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-pie.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-pie.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-pint-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-pint-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-pint.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-pint.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-play-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-play-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-play.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-play.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-plus-empty.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-plus-empty.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-plus-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-plus-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-plus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-plus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-pricetag-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-pricetag-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-pricetag.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-pricetag.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-pricetags-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-pricetags-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-pricetags.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-pricetags.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-printer-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-printer-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-printer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-printer.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-pulse-strong.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-pulse-strong.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-pulse.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-pulse.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-rainy-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-rainy-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-rainy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-rainy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-recording-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-recording-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-recording.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-recording.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-redo-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-redo-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-redo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-redo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-refresh-empty.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-refresh-empty.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-refresh-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-refresh-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-refresh.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-refresh.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-reload.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-reload.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-reverse-camera-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-reverse-camera-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-reverse-camera.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-reverse-camera.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-rewind-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-rewind-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-rewind.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-rewind.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-rose-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-rose-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-rose.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-rose.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-search-strong.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-search-strong.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-search.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-settings-strong.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-settings-strong.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-settings.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-settings.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-shuffle-strong.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-shuffle-strong.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-shuffle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-shuffle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-skipbackward-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-skipbackward-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-skipbackward.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-skipbackward.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-skipforward-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-skipforward-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-skipforward.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-skipforward.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-snowy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-snowy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-speedometer-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-speedometer-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-speedometer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-speedometer.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-star-half.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-star-half.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-star-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-star-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-star.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-star.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-stopwatch-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-stopwatch-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-stopwatch.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-stopwatch.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-sunny-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-sunny-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-sunny.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-sunny.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-telephone-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-telephone-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-telephone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-telephone.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-tennisball-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-tennisball-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-tennisball.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-tennisball.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-thunderstorm-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-thunderstorm-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-thunderstorm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-thunderstorm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-time-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-time-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-time.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-time.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-timer-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-timer-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-timer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-timer.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-toggle-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-toggle-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-toggle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-toggle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-trash-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-trash-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-trash.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-trash.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-undo-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-undo-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-undo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-undo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-unlocked-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-unlocked-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-unlocked.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-unlocked.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-upload-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-upload-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-upload.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-upload.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-videocam-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-videocam-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-videocam.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-videocam.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-volume-high.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-volume-high.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-volume-low.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-volume-low.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-wineglass-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-wineglass-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-wineglass.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-wineglass.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-world-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-world-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-world.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ios-world.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ipad.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ipad.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/iphone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/iphone.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ipod.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ipod.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/jet.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/jet.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/key.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/key.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/knife.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/knife.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/laptop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/laptop.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/leaf.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/leaf.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/levels.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/levels.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/lightbulb.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/lightbulb.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/link.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/link.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/load-a.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/load-a.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/load-b.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/load-b.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/load-c.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/load-c.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/load-d.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/load-d.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/location.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/location.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/lock-combination.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/lock-combination.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/locked.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/locked.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/log-in.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/log-in.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/log-out.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/log-out.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/loop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/loop.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/magnet.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/magnet.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/male.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/male.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/man.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/man.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/map.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/map.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/medkit.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/medkit.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/merge.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/merge.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/mic-a.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/mic-a.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/mic-b.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/mic-b.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/mic-c.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/mic-c.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/minus-circled.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/minus-circled.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/minus-round.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/minus-round.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/minus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/minus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/model-s.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/model-s.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/monitor.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/monitor.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/more.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/more.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/mouse.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/mouse.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/music-note.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/music-note.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/navicon-round.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/navicon-round.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/navicon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/navicon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/navigate.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/navigate.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/network.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/network.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/no-smoking.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/no-smoking.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/nuclear.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/nuclear.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/outlet.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/outlet.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/paintbrush.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/paintbrush.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/paintbucket.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/paintbucket.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/paper-airplane.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/paper-airplane.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/paperclip.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/paperclip.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/pause.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/pause.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/person-add.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/person-add.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/person-stalker.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/person-stalker.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/person.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/person.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/pie-graph.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/pie-graph.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/pin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/pin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/pinpoint.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/pinpoint.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/pizza.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/pizza.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/plane.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/plane.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/planet.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/planet.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/play.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/play.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/playstation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/playstation.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/plus-circled.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/plus-circled.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/plus-round.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/plus-round.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/plus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/plus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/podium.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/podium.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/pound.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/pound.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/power.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/power.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/pricetag.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/pricetag.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/pricetags.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/pricetags.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/printer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/printer.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/pull-request.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/pull-request.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/qr-scanner.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/qr-scanner.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/quote.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/quote.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/radio-waves.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/radio-waves.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/record.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/record.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/refresh.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/refresh.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/reply-all.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/reply-all.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/reply.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/reply.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ribbon-a.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ribbon-a.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ribbon-b.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/ribbon-b.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/sad-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/sad-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/sad.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/sad.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/scissors.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/scissors.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/search.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/settings.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/settings.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/share.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/share.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/shuffle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/shuffle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/skip-backward.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/skip-backward.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/skip-forward.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/skip-forward.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-android-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-android-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-android.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-android.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-angular-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-angular-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-angular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-angular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-apple-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-apple-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-apple.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-apple.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-bitcoin-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-bitcoin-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-bitcoin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-bitcoin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-buffer-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-buffer-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-buffer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-buffer.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-chrome-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-chrome-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-chrome.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-chrome.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-codepen-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-codepen-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-codepen.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-codepen.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-css3-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-css3-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-css3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-css3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-designernews-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-designernews-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-designernews.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-designernews.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-dribbble-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-dribbble-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-dribbble.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-dribbble.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-dropbox-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-dropbox-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-dropbox.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-dropbox.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-euro-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-euro-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-euro.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-euro.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-facebook-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-facebook-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-facebook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-facebook.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-foursquare-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-foursquare-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-foursquare.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-foursquare.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-freebsd-devil.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-freebsd-devil.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-github-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-github-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-github.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-github.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-google-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-google-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-google.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-google.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-googleplus-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-googleplus-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-googleplus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-googleplus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-hackernews-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-hackernews-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-hackernews.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-hackernews.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-html5-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-html5-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-html5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-html5.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-instagram-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-instagram-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-instagram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-instagram.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-javascript-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-javascript-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-javascript.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-javascript.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-linkedin-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-linkedin-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-linkedin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-linkedin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-markdown.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-markdown.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-nodejs.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-nodejs.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-octocat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-octocat.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-pinterest-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-pinterest-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-pinterest.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-pinterest.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-python.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-python.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-reddit-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-reddit-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-reddit.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-reddit.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-rss-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-rss-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-rss.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-rss.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-sass.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-sass.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-skype-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-skype-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-skype.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-skype.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-snapchat-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-snapchat-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-snapchat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-snapchat.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-tumblr-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-tumblr-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-tumblr.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-tumblr.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-tux.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-tux.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-twitch-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-twitch-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-twitch.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-twitch.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-twitter-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-twitter-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-twitter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-twitter.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-usd-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-usd-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-usd.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-usd.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-vimeo-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-vimeo-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-vimeo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-vimeo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-whatsapp-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-whatsapp-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-whatsapp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-whatsapp.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-windows-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-windows-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-windows.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-windows.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-wordpress-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-wordpress-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-wordpress.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-wordpress.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-yahoo-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-yahoo-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-yahoo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-yahoo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-yen-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-yen-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-yen.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-yen.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-youtube-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-youtube-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-youtube.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/social-youtube.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/soup-can-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/soup-can-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/soup-can.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/soup-can.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/speakerphone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/speakerphone.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/speedometer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/speedometer.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/spoon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/spoon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/star.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/star.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/stats-bars.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/stats-bars.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/steam.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/steam.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/stop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/stop.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/thermometer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/thermometer.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/thumbsdown.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/thumbsdown.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/thumbsup.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/thumbsup.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/toggle-filled.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/toggle-filled.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/toggle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/toggle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/transgender.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/transgender.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/trash-a.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/trash-a.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/trash-b.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/trash-b.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/trophy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/trophy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/tshirt-outline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/tshirt-outline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/tshirt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/tshirt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/umbrella.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/umbrella.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/university.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/university.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/unlocked.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/unlocked.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/upload.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/upload.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/usb.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/usb.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/videocamera.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/videocamera.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/volume-high.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/volume-high.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/volume-low.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/volume-low.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/volume-medium.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/volume-medium.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/volume-mute.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/volume-mute.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/wand.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/wand.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/waterdrop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/waterdrop.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/wifi.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/wifi.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/wineglass.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/wineglass.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/woman.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/woman.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/wrench.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/wrench.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/xbox.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/ionicons-2.0.1/src/xbox.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/montserrat/OFL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/montserrat/OFL.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/map-custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/map-custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/slick-custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/slick-custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/countdowntime/countdowntime.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/countdowntime/countdowntime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/css-hamburgers/hamburgers.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/css-hamburgers/hamburgers.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/css-hamburgers/hamburgers.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/css-hamburgers/hamburgers.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/noui/nouislider.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/noui/nouislider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/parallax100/parallax100.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/parallax100/parallax100.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/select2/select2.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/select2/select2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vendor/select2/select2.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/vendor/select2/select2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/CollectionFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/CollectionFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Collection.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Collection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/empty.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/empty.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/partials/header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/header.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,82 +770,100 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/IndexController.php">
+        <entry file="file://$PROJECT_DIR$/templates/empty.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1887">
+              <caret line="111" column="42" selection-start-line="111" selection-start-column="42" selection-end-line="111" selection-end-column="42" />
               <folding>
-                <element signature="e#312#335#0#PHP" expanded="true" />
-                <element signature="e#461#484#1#PHP" expanded="true" />
+                <element signature="e#12#26#0#Twig" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/empty.html.twig">
+        <entry file="file://$PROJECT_DIR$/templates/index/partials/product.html.twig">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index/partials/slide.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+            <state>
               <folding>
-                <element signature="e#207#237#0#Twig" expanded="true" />
-                <element signature="e#304#329#0#Twig" expanded="true" />
-                <element signature="e#439#464#0#Twig" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Entity/Collection.php">
+        <entry file="file://$PROJECT_DIR$/src/Controller/Admin/ProductController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            <state relative-caret-position="119">
+              <caret line="25" column="5" lean-forward="true" selection-end-line="96" />
+              <folding>
+                <element signature="e#607#638#0#PHP" expanded="true" />
+                <element signature="e#1298#1327#0#PHP" expanded="true" />
+                <element signature="e#1593#1623#0#PHP" expanded="true" />
+                <element signature="e#2227#2257#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Repository/CollectionRepository.php">
+        <entry file="file://$PROJECT_DIR$/templates/admin/product/edit.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
-              <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+            <state relative-caret-position="187">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <folding>
+                <element signature="e#12#26#0#Twig" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
+        <entry file="file://$PROJECT_DIR$/templates/admin/product/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+            <state relative-caret-position="-449">
+              <folding>
+                <element signature="e#12#26#0#Twig" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DataFixtures/CollectionFixtures.php">
+        <entry file="file://$PROJECT_DIR$/templates/admin/product/new.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="119">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+              <folding>
+                <element signature="e#12#26#0#Twig" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/partials/stylesheets.html.twig">
+        <entry file="file://$PROJECT_DIR$/templates/admin/product/show.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/partials/header.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4318">
-              <caret line="254" selection-start-line="254" selection-end-line="254" />
+            <state relative-caret-position="816">
+              <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+              <folding>
+                <element signature="e#12#26#0#Twig" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,13 +871,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#207#237#0#Twig" expanded="true" />
-                <element signature="e#304#329#0#Twig" expanded="true" />
-                <element signature="e#439#464#0#Twig" expanded="true" />
-              </folding>
+            <state relative-caret-position="221">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -130,11 +890,17 @@
         <option value="$PROJECT_DIR$/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/templates/partials/footer.html.twig" />
         <option value="$PROJECT_DIR$/templates/index/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/Controller/IndexController.php" />
         <option value="$PROJECT_DIR$/templates/empty.html.twig" />
-        <option value="$PROJECT_DIR$/src/Entity/Collection.php" />
         <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/src/Controller/IndexController.php" />
         <option value="$PROJECT_DIR$/src/DataFixtures/CollectionFixtures.php" />
+        <option value="$PROJECT_DIR$/src/DataFixtures/ProductFixtures.php" />
+        <option value="$PROJECT_DIR$/src/Entity/Collection.php" />
+        <option value="$PROJECT_DIR$/src/Controller/ProductController.php" />
+        <option value="$PROJECT_DIR$/templates/admin/product/edit.html.twig" />
+        <option value="$PROJECT_DIR$/templates/admin/product/new.html.twig" />
+        <option value="$PROJECT_DIR$/templates/admin/product/show.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/Admin/ProductController.php" />
       </list>
     </option>
   </component>
@@ -247,10 +1013,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="979" />
-    <option name="height" value="1090" />
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1088" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -291,7 +1056,8 @@
               <item name="iim-project-symfony" type="b2602c69:ProjectViewProjectNode" />
               <item name="iim-project-symfony" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DataFixtures" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="iim-project-symfony" type="b2602c69:ProjectViewProjectNode" />
@@ -304,6 +1070,32 @@
               <item name="iim-project-symfony" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="iim-project-symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iim-project-symfony" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iim-project-symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iim-project-symfony" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iim-project-symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iim-project-symfony" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="iim-project-symfony" type="b2602c69:ProjectViewProjectNode" />
+              <item name="iim-project-symfony" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -312,9 +1104,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../iim-2019-symfony-ecommerce-day-2/iim-2019-symfony-ecommerce-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\falyt\Documents\Cours\IIM\Symfony\projet\iim-project-symfony\templates\admin" />
+      <recent name="C:\Users\falyt\Documents\Cours\IIM\Symfony\projet\iim-project-symfony\src\Controller\Admin" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -340,18 +1139,19 @@
       <updated>1547460636074</updated>
       <workItem from="1547460637489" duration="1165000" />
       <workItem from="1547463455025" duration="1989000" />
-      <workItem from="1547540980180" duration="8419000" />
+      <workItem from="1547540980180" duration="8986000" />
+      <workItem from="1547713780922" duration="3065000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11573000" />
+    <option name="totallyTimeSpent" value="15205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17248322" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17785235" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -363,7 +1163,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3297587" />
       <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -399,76 +1199,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="111" column="84" selection-start-line="111" selection-start-column="84" selection-end-line="111" selection-end-column="84" />
-          <folding>
-            <element signature="e#12#26#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/partials/footer.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-897">
           <caret line="91" column="32" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/partials/header.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4318">
-          <caret line="254" selection-start-line="254" selection-end-line="254" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/partials/stylesheets.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding>
-            <element signature="e#312#335#0#PHP" expanded="true" />
-            <element signature="e#461#484#1#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#207#237#0#Twig" expanded="true" />
-            <element signature="e#304#329#0#Twig" expanded="true" />
-            <element signature="e#439#464#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/empty.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-          <folding>
-            <element signature="e#207#237#0#Twig" expanded="true" />
-            <element signature="e#304#329#0#Twig" expanded="true" />
-            <element signature="e#439#464#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -479,24 +1213,177 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Repository/CollectionRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
+        <state relative-caret-position="238">
           <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/partials/stylesheets.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/partials/header.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4318">
+          <caret line="254" selection-start-line="254" selection-end-line="254" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DataFixtures/CollectionFixtures.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="350">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#36#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="26" column="16" selection-start-line="26" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/Collection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        <state relative-caret-position="367">
+          <caret line="135" column="32" selection-start-line="135" selection-start-column="32" selection-end-line="135" selection-end-column="32" />
+          <folding>
+            <element signature="e#30#78#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="139" column="5" selection-start-line="139" selection-start-column="5" selection-end-line="139" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataFixtures/ProductFixtures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/product/_delete_form.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#37#51#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/product/_form.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/product/edit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/product/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-449">
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/product/new.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/product/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/empty.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="111" column="42" selection-start-line="111" selection-start-column="42" selection-end-line="111" selection-end-column="42" />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index/partials/slide.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index/partials/product.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/Admin/ProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="25" column="5" lean-forward="true" selection-end-line="96" />
+          <folding>
+            <element signature="e#607#638#0#PHP" expanded="true" />
+            <element signature="e#1298#1327#0#PHP" expanded="true" />
+            <element signature="e#1593#1623#0#PHP" expanded="true" />
+            <element signature="e#2227#2257#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
