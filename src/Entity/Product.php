@@ -2,7 +2,10 @@
 
 namespace App\Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection as DoctrineCollection;
 use Doctrine\ORM\Mapping as ORM;
+use App\Entity\Collection as ProductCollection;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\ProductRepository")
@@ -32,6 +35,11 @@ class Product
     private $price;
 
     /**
+     * @ORM\Column(type="integer")
+     */
+    private $stock;
+
+    /**
      * @ORM\Column(type="string", length=255)
      */
     private $sku;
@@ -53,9 +61,14 @@ class Product
     private $dateAdd;
 
     /**
-     * @ORM\Column(type="integer")
+     * @ORM\OneToMany(targetEntity="App\Entity\CartProduct", mappedBy="product", orphanRemoval=true)
      */
-    private $stock;
+    private $cartProducts;
+
+    public function __construct()
+    {
+        $this->cartProducts = new ArrayCollection();
+    }
 
     public function getId(): ?int
     {
@@ -110,12 +123,12 @@ class Product
         return $this;
     }
 
-    public function getCollection(): ?Collection
+    public function getCollection(): ?ProductCollection
     {
         return $this->collection;
     }
 
-    public function setCollection(?Collection $collection): self
+    public function setCollection(?ProductCollection $collection): self
     {
         $this->collection = $collection;
 
@@ -154,6 +167,37 @@ class Product
     public function setStock(int $stock): self
     {
         $this->stock = $stock;
+
+        return $this;
+    }
+
+    /**
+     * @return DoctrineCollection|CartProduct[]
+     */
+    public function getCartProducts(): DoctrineCollection
+    {
+        return $this->cartProducts;
+    }
+
+    public function addCartProduct(CartProduct $cartProduct): self
+    {
+        if (!$this->cartProducts->contains($cartProduct)) {
+            $this->cartProducts[] = $cartProduct;
+            $cartProduct->setProduct($this);
+        }
+
+        return $this;
+    }
+
+    public function removeCartProduct(CartProduct $cartProduct): self
+    {
+        if ($this->cartProducts->contains($cartProduct)) {
+            $this->cartProducts->removeElement($cartProduct);
+            // set the owning side to null (unless already changed)
+            if ($cartProduct->getProduct() === $this) {
+                $cartProduct->setProduct(null);
+            }
+        }
 
         return $this;
     }

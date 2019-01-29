@@ -11,7 +11,7 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
 /**
- * @Route("admin/product")
+ * @Route("/admin/product")
  */
 class ProductController extends AbstractController
 {
@@ -41,6 +41,7 @@ class ProductController extends AbstractController
 
             return $this->redirectToRoute('product_index');
         }
+
         return $this->render('admin/product/new.html.twig', [
             'product' => $product,
             'form' => $form->createView(),
