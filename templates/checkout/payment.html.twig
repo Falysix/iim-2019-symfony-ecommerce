@@ -3,9 +3,19 @@
 {% block title %}Hello CheckoutController!{% endblock %}
 
 {% block body %}
-    {{ form_start(form) }}
-    {{ form_widget(form) }}
-        <button class="btn">{{ button_label|default('Pay') }}</button>
-    {{ form_end(form) }}
-
+        <button class="btn" onclick="payment_ok()">{{ button_label|default('Payer') }}</button>
+        <div id="payment-ok" style="display:none">
+                <p>Paiement validé !</p>
+                <a href="/">
+                        <button class="btn">{{ button_label|default('Retour au menu') }}</button>
+                </a>
+        </div>
+{% endblock %}
+{% block javascripts %}
+    <script type="text/javascript">
+        function payment_ok(){
+            $('#payment-ok').show();
+            $.post("{{ path('checkout_payment') }}");
+        }
+    </script>
 {% endblock %}

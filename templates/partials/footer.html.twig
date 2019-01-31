@@ -181,6 +181,11 @@
             swal(nameProduct, "is added to wishlist !", "success");
         });
     });
+    $('#js-show-header-dropdown').on('click', function(event){
+        event.stopPropagation();
+        event.stopImmediatePropagation();
+        console.log('test');
+    });
 </script>
 
 <!--===============================================================================================-->
